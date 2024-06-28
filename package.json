@@ -1,15 +1,18 @@
 {
-  "name": "fcc-learn-node-with-express",
-  "version": "0.1.0",
-  "dependencies": {
-    "body-parser": "^1.15.2",
-    "cookie-parser": "^1.4.3",
-    "dotenv": "^16.0.1",
-    "express": "^4.14.0",
-    "fcc-express-bground": "https://github.com/freeCodeCamp/fcc-express-bground-pkg.git"
-  },
+  "name": "nume_proiect",
+  "version": "1.0.0",
+  "description": "This is the boilerplate code for the Basic Node and Express Challenges. Instructions for working on these challenges start at https://www.freecodecamp.org/learn/apis-and-microservices/basic-node-and-express/",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
-  }
+    "start": "nodemon myApp.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "keywords": []
 }
